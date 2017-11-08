@@ -26,5 +26,5 @@ function appendKitten(name){
 
 function prependKitten(name){
   const newArrayy = [name, ...kittens];
-  
+  return newArrayy;
 }

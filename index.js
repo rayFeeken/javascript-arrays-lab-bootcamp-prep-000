@@ -28,3 +28,7 @@ function prependKitten(name){
   const newArray = [name, ...kittens];
   return newArray;
 }
+
+function removeLastKitten(){
+  
+}

@@ -1,5 +1,7 @@
 const app = "I don't do much."
 
+const app = "I don't do much."
+
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(name){
@@ -16,8 +18,4 @@ function destructivelyRemoveLastKitten(){
 
 function destructivelyRemoveFirstKitten(){
   kittens.shift();
-}
-
-function removeFirstKitten(){
-  kitten.slice(1);
 }

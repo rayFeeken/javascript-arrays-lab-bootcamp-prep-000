@@ -23,5 +23,3 @@ function appendKitten(name){
   const newArray = [...kittens, name];
   return newArray;
 }
-
-

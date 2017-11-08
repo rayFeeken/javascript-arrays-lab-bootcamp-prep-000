@@ -26,5 +26,5 @@ function appendKitten(name){
 
 function prependKitten(name){
   cost newArray = [name, ...kittens];
-  
+  return newArray;
 }
